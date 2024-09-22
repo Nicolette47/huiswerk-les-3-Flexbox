@@ -1,1 +1,45 @@
-/*Schrijf hier jouw CSS*/
+body {
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.outer-col-1 {
+    flex: 0 0 250px;
+}
+
+.outer-col-2 {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+
+}
+
+.inner-row {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+
+}
+
+.inner-col {
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+header, footer {
+    flex: 0 0 100px;
+}
+
+aside {
+    flex: 0 0 250px;
+}
+
+article  {
+    flex: 1 1 auto;
+}
