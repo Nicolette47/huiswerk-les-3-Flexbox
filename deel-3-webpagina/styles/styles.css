@@ -30,7 +30,7 @@ body {
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
-    flex-wrap:flex;
+    flex-wrap: wrap;
     flex-basis:15vh;
     background-color:#030027;
     color:#ffffff;
