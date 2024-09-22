@@ -2,12 +2,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    height: 100vh;
+    height: auto;
 }
 
 .col-1 {
     flex: 0 0 20%;
-    height: 100%
 }
 
 
