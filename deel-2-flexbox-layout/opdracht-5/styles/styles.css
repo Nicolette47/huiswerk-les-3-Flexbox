@@ -1,1 +1,28 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+nav {
+    flex: 0 0 250px;
+    order: -1;
+}
+
+aside{
+    flex: 0 0 250px
+}
+
+article {
+flex: 1 1 auto
+}
+
+header, footer {
+    flex: 0 0 120px;
+}
