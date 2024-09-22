@@ -1,1 +1,33 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.col-1 {
+    flex: 0 0 20%;
+    height: 100%
+}
+
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 80%;
+}
+
+main {
+    display: flex;
+    border: 2px dashed blue;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+header, footer {
+    flex: 0 0 70px;
+}
+
+article {
+    flex: 1 1 auto;
+}
