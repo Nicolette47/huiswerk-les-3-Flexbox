@@ -1,1 +1,99 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*STRUCTUUR
+1. Global styles
+2. outer-innercontainer
+3. Flexboxes
+4. Overig
+ */
+
+/* 1. GLOBAL STYLE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* 1. Flexboxes */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #F2F3D9;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:flex;
+    flex-basis:15vh;
+    background-color:#030027;
+    color:#ffffff;
+}
+
+.nav-links{
+    display:flex;
+    flex-direction:row;
+
+}
+
+.title-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 0;
+    margin: 0 20px;
+}
+
+
+.article-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    margin: 0 20px;
+}
+
+.small-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color:#C16E70;
+    align-items: center;
+    border-radius: 5px;
+    max-width: 280px;
+    height: 350px;
+}
+
+
+/* Overig */
+.small-articles p {
+    text-align: center;
+    margin: 10px 12px;
+}
+
+.title-area h3 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-item {
+    padding:30px;
+    font-size:20px;
+
+}
+
+.navbar p {
+    padding:30px;
+    font-weight:600;
+    font-size:30px;
+}
