@@ -1,5 +1,4 @@
 body {
-    border: 2px dashed black;
     display: flex;
     flex-direction: row;
     height: auto;
@@ -10,7 +9,6 @@ body {
 }
 
 .outer-col-2 {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
@@ -18,7 +16,6 @@ body {
 }
 
 .inner-row {
-    border: 2px solid blue;
     display: flex;
     flex-direction: row;
     flex: 1 1 auto;
@@ -26,7 +23,6 @@ body {
 }
 
 .inner-col {
-    border: 2px solid green;
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
